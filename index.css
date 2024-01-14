@@ -1,0 +1,733 @@
+body{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header {
+    border-bottom: 0.5px solid rgb(45,168,132);
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-name{
+    width:15%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+}
+
+.header-name h2{
+    color: rgb(45,168,132);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.header-name h2 span{
+    font-size: 150%;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+
+.header-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-list ul li{
+    justify-content: space-between;
+}
+
+.header-list li a{
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-size: 20px;
+    padding: 5% 0%;
+    margin: 10%;
+}
+
+.list{
+    cursor: pointer;
+    width: 30%;
+    padding: 1% 8%;
+    margin: 0%;
+}
+
+.header-options{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 20px;
+    gap: 15%;
+}
+
+.button{
+    border: none;
+    background-color: rgb(45,168,132);
+    color: white;
+    font-size: 17px;
+    width: 40%;
+    padding: 4% 2%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.home-main-content{
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.home-main-left{
+    width: 50%;
+    padding: 8%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-bottom: 13%;
+    border-bottom: 0.5px solid rgb(45,168,132);
+}
+
+.home-main-left p{
+    color: rgb(45,168,132);
+    font-size: 20px;
+    margin: 4%;
+    padding: 0%;
+}
+
+.home-main-left h1{
+    font-size: 55px;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    margin: 4%;
+    padding: 0%;
+}
+
+#para{
+    color: grey;
+    font-size: 18px;
+    margin-right: 0%;
+    margin: 4% 0% 4% 4%;
+    padding: 0%;
+    line-height: 25px;
+    width: 100%;
+}
+
+.home-main-left-buttons{
+    margin: 4%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-button-1{
+    border: none;
+    background-color: rgb(45,168,132);
+    color: white;
+    font-size: 18px;
+    width: 45%;
+    padding: 5% 3%;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.main-button-2{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    width: 45%;
+    padding: 5% 3%;
+    cursor: pointer;
+}
+
+.main-button-1:hover{
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
+}
+
+.main-button-2:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.home-main-right{
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#main-image{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.photos-content{
+    box-sizing: border-box;
+    width: 100%;
+    height: 155%;
+}
+
+.top-photos-content{
+    width: 100%;
+    height: 30%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.top-left-content{
+    font-size: 38px;
+    width: 50%;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-family: 'Abril Fatfacelora', cursive;
+    font-family: 'Lora', serif;
+    padding: 9% 0% 0% 0%;
+    margin-left: 9%;
+}
+
+.top-right-content{
+    font-size: 18px;
+    width: 50%;
+    color: grey;
+    box-sizing: border-box;
+    padding: 11% 0% 0% 03%;
+    margin-right: 9%;
+    line-height: 35px;
+    text-align: left;
+}
+
+.top-right-content p{ 
+    padding-right: 0%;
+}
+
+.mid-photos-content{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0% 9%;
+}
+
+.inner-small-photos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    width: 19%;
+    margin: 0% 0%;
+}
+
+
+.image-config{
+    box-sizing: border-box;
+    height: 49%;
+    width: 100%;
+    margin: 0% 0%;
+}
+
+.inner-large-photo{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    margin: 0% 0%;
+}
+
+.image-config-large{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0% 0%;
+}
+
+.bottom-photos-content{
+    width: 100%;
+    height: 25%;
+    padding: 0% 0% 6% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid rgb(45,168,132);
+}
+
+.get-in-touch-button{
+    border: none;
+    background-color: rgb(45,168,132);
+    color: white;
+    font-size: 18px;
+    width: 14%;
+    height: 38%;
+    padding: 0%;
+    cursor: pointer;
+    margin-right: 0%;
+}
+
+.get-in-touch-button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.counter-div{
+    height: 140%;
+    width: auto;
+    border-bottom: 0.5px solid rgb(45,168,132);
+    padding: 7% 7% 0% 7%;
+}
+
+.why-us-div{
+    box-sizing: border-box;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 20% 10% 20%;
+    text-align: center;
+}
+
+#p1{
+    width: 100%;
+    text-align: center;
+    color: rgb(45,168,132);
+    font-size: 18px;
+    line-height: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0%;
+    padding: 0%;
+}
+
+.why-us-div h2{
+    font-size: 40px;
+    width: 100%;
+    line-height: 1.3em;
+    color: #142a25;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    padding: 0%;
+}
+
+#p2{
+    width: 110%;
+    font-family: Inter, sans-serif;
+    color: #637a75;
+    font-size: 18px;
+    line-height: 1.8em;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+}
+
+.big-number-div{
+    box-sizing: border-box;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.number-count{
+    box-sizing: border-box;
+    font-size: 70px;
+    color: #142a25;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.number-count p{
+    margin: 0%;
+}
+
+.number-count p span{
+    color: rgb(45,168,132);
+}
+
+#status{
+    text-align: center;
+    font-size: 28px;
+    padding: 0%;
+    width: 75%;
+    color: #637a75;
+}
+
+.get-in-touch-div{
+    box-sizing: border-box;
+    margin: 0%;
+    height: 85%;
+    padding: 9% 5% 0% 7%;
+    background-color: #142a25;
+}
+
+.get-in-touch-div p{
+    margin-top: 0%;
+    font-size: 55px;
+    font-weight: 400;
+    width: 50%;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    color: white;
+    line-height: 1.2;
+    word-spacing: 1%;
+}
+
+.get-in-touch-button-div{
+    border: none;
+    width: 16%;
+    height: 19%;
+    background-color: rgb(45,168,132);
+    color: white;
+    font-size: 18px;
+    padding: 0%;
+    cursor: pointer;
+    margin-right: 0%;
+}
+
+.get-in-touch-button-div:hover{
+    background-color: #142a25;
+    color: white;
+    border: 1px solid white;
+}
+
+.contact-div{
+    border-bottom: 0.5px solid rgb(45,168,132);
+    box-sizing: border-box;
+    height: 70%;
+    padding: 0% 7%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-left-div{
+    margin-top: 0%;
+    font-size: 31px;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    line-height: 1.2;
+    text-align: center;
+    text-align: center;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details p{
+    margin-top: 0%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lora', serif;
+    line-height: 1.2;
+    text-align: center;
+    text-align: center;
+    color: #637a75;
+}
+
+.footer{
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+.footer p{
+    text-align: center;
+    font-family: Inter, sans-serif;
+    color: #637a75;
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+}
+
+.footer p span{
+    color: rgb(45,168,132);
+}
+
+@media only screen and (max-width: 750px)
+{
+    .header {
+    border-bottom: 0.5px solid rgb(45,168,132);
+    height: 10%;
+}
+
+.header-name{
+    width:100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.header-list{
+    display: none;
+}
+
+.header-options{
+    display: none;
+}
+
+.home-main-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.home-main-left{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    padding: 3%;
+    border: none;
+}
+
+.home-main-left p{
+    color: rgb(45,168,132);
+    font-size: 15px;
+    margin: 0%;
+    margin-bottom: 4%;
+    padding: 0%;
+}
+
+.home-main-left h1{
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+    text-align: justify;
+    margin-bottom: 4%;
+}
+
+#para{
+    color: grey;
+    font-size: 12px;
+    margin: 0%;
+    line-height: 20px;
+    margin-bottom: 4%;
+}
+
+.home-main-left-buttons{
+    margin: 0%;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+}
+
+.home-main-right{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 0.5px solid rgb(45,168,132);
+}
+
+.photos-content{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-photos-content{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-left-content{
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+.top-right-content{
+    display: none;
+}
+
+.mid-photos-content{
+    height: auto;
+    padding: 0% 4%;
+}
+
+.bottom-photos-content{
+    width: 100%;
+    height: 10%;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 0.5px solid rgb(45,168,132);
+}
+
+.get-in-touch-button{
+    font-size: 15px;
+    width: 25%;
+    height: 75%;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.counter-div{
+    width: auto;
+    border-bottom: 0.5px solid rgb(45,168,132);
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.why-us-div{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+#p1{
+    line-height: 1.1em;
+    margin: 0%;
+    padding: 0%;
+}
+
+.why-us-div h2{
+    font-size: 25px;
+    width: 100%;
+    line-height: 1.3em;
+    padding: 0%;
+}
+
+#p2{
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.big-number-div{
+    height: 40%;
+    flex-direction: column;
+}
+
+.number-count{
+    font-size: 40px;
+}
+
+#status{
+    font-size: 18px;
+}
+
+.get-in-touch-div{
+    margin: 0%;
+    height: 40%;
+}
+
+.get-in-touch-div p{
+    font-size: 30px;
+    width: auto;
+}
+
+.get-in-touch-button-div{
+    width: 30%;
+    height: 20%;
+    font-size: 15px;
+}
+
+.contact-div{
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-left-div{
+    font-size: 25px;
+}
+
+.contact-details{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details p{
+    margin-top: 0%;
+    font-size: 15px;
+}
+
+.footer{
+    height: 7%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 9px;
+}
+}
